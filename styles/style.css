@@ -1,0 +1,59 @@
+.headerClass {
+    background-color: #1E2330;
+}
+
+.footerClass {
+    background-color: #1E2330;    
+    color: white;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    clear: both;
+}
+
+.logoClass {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    width: 35%;
+  }
+
+  .textBox {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 600px;
+  }
+
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1170px;
+}
+
+.spacer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+/* Create twoequal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .centerSection {
+    text-align: center; 
+  }
