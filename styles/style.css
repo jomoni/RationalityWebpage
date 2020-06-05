@@ -35,16 +35,16 @@
     max-width: 1170px;
 }
 
-.spacer {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: white;
+.innerTextBox{
+    padding-right: 25px;
+    padding-left: 25px;
 }
 
 /* Create twoequal columns that floats next to each other */
 .column {
     float: left;
     width: 50%;
+    /*border: 3px solid blue;*/
   }
   
   /* Clear floats after the columns */
@@ -57,3 +57,4 @@
   .centerSection {
     text-align: center; 
   }
+
