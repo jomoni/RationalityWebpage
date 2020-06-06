@@ -22,11 +22,21 @@
     width: 35%;
   }
 
+  .pictureClass {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1em;
+    padding-top: 2em;
+    max-height: 350px;
+  }
+
   .textBox {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
     width: 600px;
+    padding-bottom: 1em;;
   }
 
   .container {
