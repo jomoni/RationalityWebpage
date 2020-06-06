@@ -105,3 +105,11 @@
   #emailForm {
       margin-top: 15px;
   }
+
+  .inputField {
+      margin-bottom: 5px;
+  }
+
+  form > label {
+      font-weight: bold;
+  }
