@@ -6,11 +6,12 @@
 
 .footerClass {
     background-color: #1E2330;    
-    color: white;
+    color: orange;
     text-align: center;
     padding-top: 2em;
     padding-bottom: 2em;
     clear: both;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 .logoClass {
@@ -18,7 +19,7 @@
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 2em;
-    padding-top: 2em;
+    padding-top: 2px;
     width: 35%;
   }
 
@@ -26,9 +27,11 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 1em;
     padding-bottom: 1em;
-    padding-top: 2em;
     max-height: 350px;
+    text-align: center;
+
   }
 
   .textBox {
@@ -36,7 +39,7 @@
     margin-right: auto;
     margin-left: auto;
     width: 600px;
-    padding-bottom: 1em;;
+    padding-bottom: 1em;
   }
 
   .container {
@@ -45,6 +48,7 @@
     margin-right: auto;
     margin-left: auto;
     max-width: 1170px;
+    margin-top: 4px;
 }
 
 .innerTextBox{
@@ -56,7 +60,6 @@
 .column {
     float: left;
     width: 50%;
-    /*border: 3px solid blue;*/
   }
   
   /* Clear floats after the columns */
@@ -69,6 +72,8 @@
   .centerSection {
     text-align: center; 
   }
+
+  /* Create two unequal columns */
 
   .first-column {
     width: 31%;
@@ -97,3 +102,6 @@
       font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   }
  
+  #emailForm {
+      margin-top: 15px;
+  }
