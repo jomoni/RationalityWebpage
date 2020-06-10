@@ -24,7 +24,7 @@ function moveForward() {
 
 function startPlayback(){
     var figures = getFigures();
-    figures[0].className = 'visible'
+    figures[0].className = 'visible';
     setTimeout(moveForward, slideInterval);
 }
 

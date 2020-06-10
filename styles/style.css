@@ -55,12 +55,16 @@
     padding-left: 25px;
 }
 
-/* Create two equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 50%;
-  }
-  
+
+
+
+@media screen and (min-width: 1000px) {
+    .column {
+        float: left;
+        width: 50%;
+      }
+
+
   /* Clear floats after the columns */
   .row:after {
     content: "";
@@ -68,10 +72,12 @@
     clear: both;
   }
 
+
   .centerSection {
     text-align: center; 
   }
 
+}
   /* Create two unequal columns */
 
   .first-column {
@@ -113,7 +119,6 @@
       font-weight: bold;
   }
 
-
   section#carousel > figure > img {
     display: none;
     margin: 0px auto;
@@ -134,4 +139,14 @@ section#carousel > figure.visible > figcaption {
     text-align: center;
     font-weight: bold;
     font-size: 1.5em;
+}
+
+.linkColumn {
+    clear: both;
+}
+
+#introvid {
+    display:block;
+    position:relative;
+    padding-left: 200px;
 }
