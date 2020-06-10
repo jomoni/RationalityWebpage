@@ -1,55 +1,73 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Rationality Media</title>
     <link rel="stylesheet" href="styles/style.css" type="text/css">
 </head>
+
 <body>
     <section class="headerClass">
         <div class="first-column titleText">
             <h1>Media.</h1>
         </div>
         <div class="second-column">
-            <h3 class = "subtitleText">
-                 Rationality articles, whitepapers and videos.
+            <h3 class="subtitleText">
+                Rationality articles, whitepapers and videos.
             </h3>
         </div>
-        </section>
-        <section>
-            <div class="column">
-                <section id ="carousel">
-                    <figure  class ="visible">
-                        <img src="images/efficient_cars.png" alt="Efficient Cars" />
-                        <figcaption>2017 Cars Promise to be More Fuel Efficient Than Ever</figcaption>
-                    </figure>
-            
-                    <figure>
-                        <img src="images/natural_disaster.png" alt="Natural Disaster" />
-                        <figcaption>Hurricane Threatens to Touch Down on the East Coast This Weekend</figcaption>
-                    </figure>
-            
-                    <figure>
-                        <img src="images/health_records.png" alt="Health Records" />
-                        <figcaption>Many Doctors are Moving to Digital Health Records This Year</figcaption>
-                    </figure>
-                </section>
-            </div>
-            <div class="column">
-                <video width="400" height="300" controls id="introvid">
-                    <source src="videos/tectvid.mp4" type="video/mp4">
+    </section>
+    <section>
+        <div >
+            <section id="carousel">
+                <figure class="visible">
+                    <a href = "https://www.dau.edu/library/defense-atl/blog/Agile%E2%80%94the-Pros-and-Cons" target="_blank">
+                        <img src="images/agile.png" alt="Agile Article" />
+                    </a>
+                    <figcaption>Agile at your Own Risk</figcaption>
+                </figure>
+
+                <figure>
+                    <a href = "https://www.dau.edu/library/defense-atl/blog/Model-Based-Systems-Engineering" target="_blank">
+                        <img src="images/mbse.png" alt="MBSE Article" />
+                    </a>
+                    <figcaption>MBSE in the DoD - No Silver Bullet</figcaption>
+                </figure>
+
+                <figure>
+                    <a href = "https://sercuarc.org/event/sdsf-2018/" target="_blank">
+                        <img src="images/serc.png" alt="SERC Flyer" />
+                    </a>
+                    <figcaption>Rationality presents to SERC</figcaption>
+                </figure>
+            </section>
+        </div>
+        <div >
+            <div class="video-wrapper">
+                <video controls class="video">
+                    <source src="videos/test_video.mp4" type="video/mp4">
                 </video>
             </div>
-            <!--
-            <div class="linkColumn">
-                links and such
-            </div> -->
+        </div>
+        <section class="linkColumn blueBorder">
+            <div class="centerSection">
+                <h2>Downloads</h2>
+                <ul id="listOfLinks">
+                    <li><a href="downloads/test_whitepaper1.docx" target="_blank">Download test whitepaper 1</a></li>
+                    <li><a href="downloads/test_whitepaper2.docx" target="_blank">Download test whitepaper 2</a></li>
+                    <li><a href="downloads/test_whitepaper3.docx" target="_blank">Download test whitepaper 3</a></li>
+                    <li><a href="downloads/test_whitepaper4.docx" target="_blank">Download test whitepaper 4</a></li>                                                            
+                </ul>
+            </div>
         </section>
+    </section>
 
-        <section>
-            <footer class="footerClass">
-                <h2>" At Rationality, blah blah, something something...</h2>
-            </footer>
-        </section>
-        <script type="text/javascript" src="scripts/articles.js"></script>
+    <section>
+        <footer class="footerClass">
+            <h2>" At Rationality, blah blah, something something...</h2>
+        </footer>
+    </section>
+    <script type="text/javascript" src="scripts/articles.js"></script>
 </body>
+
 </html>

@@ -1,50 +1,60 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Contact Rationality</title>
     <link rel="stylesheet" href="styles/style.css" type="text/css">
 </head>
+
 <body>
     <section class="headerClass">
         <div class="first-column titleText">
             <h1>Contact Us.</h1>
         </div>
         <div class="second-column">
-            <h3 class = "subtitleText">
-                 Call us at 719.XXX.YYYY
+            <h3 class="subtitleText">
+                Call us at 719.XXX.YYYY
             </h3>
         </div>
-        </section>
-        <section class="container">
-            <div class="column">
-                <img src="images/placeholder_map.png" alt="map" class="pictureClass" />
-            </div>
-            <div class="column">
-                <form class="emailForm">
-                    <label>First Name: </label>
-                    <input type="text" name="fname" placeholder="Joseph"  required="required" class="inputField"/>
-                    <br />
-                    <label>Last Name: </label>
-                    <input type="text" name="lname" placeholder="Bag o' Donuts"  required="required" class="inputField"/>
-                    <br />         
-                    <label>Email Address: </label>
-                    <input type="email" name="email address" placeholder="joeybags@hoolimail.com" required="required" class="inputField"/>
-                    <br />
-                    <label>Subject: </label>
-                    <input type="text" name="subject" placeholder="Business Opportunity" required="required" class="inputField"/>
-                    <br />
-                    <label>Message: </label>
-                    <br />
-                    <textarea id="messageContent" name="msg" rows="12" cols="50">Enter message here.</textarea>
-                    <br />
-                    <input type="submit" value="SUBMIT" />
-                </form>
-            </div>
-        </section>
+    </section>
+    <section class="container">
+        <div class="column">
+            <!-- <img src="images/placeholder_map.png" alt="map" class="pictureClass" /> -->
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3102.341967763145!2d-104.77089598432406!3d38.961858850746154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87134c1bcf80a0fb%3A0xd17abbfee33da1e4!2s9030%20Rochester%20Dr%2C%20Colorado%20Springs%2C%20CO%2080920!5e0!3m2!1sen!2sus!4v1591821035769!5m2!1sen!2sus"
+                width="400" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0" class="pictureClass">
+            </iframe>
+        </div>
+        <div class="column">
+            <form class="emailForm">
+                <label>First Name: </label>
+                <input type="text" name="fname" placeholder="Joseph" required="required" class="inputField" />
+                <br />
+                <label>Last Name: </label>
+                <input type="text" name="lname" placeholder="Bag o' Donuts" required="required" class="inputField" />
+                <br />
+                <label>Email Address: </label>
+                <input type="email" name="email address" placeholder="joeybags@hoolimail.com" required="required"
+                    class="inputField" />
+                <br />
+                <label>Subject: </label>
+                <input type="text" name="subject" placeholder="Business Opportunity" required="required"
+                    class="inputField" />
+                <br />
+                <label>Message: </label>
+                <br />
+                <textarea id="messageContent" name="msg" rows="12" cols="50">Enter message here.</textarea>
+                <br />
+                <input type="submit" value="SUBMIT" />
+            </form>
+        </div>
+    </section>
     <section>
         <footer class="footerClass">
             <h2>" At Rationality, blah blah, something something...</h2>
         </footer>
     </section>
 </body>
+
 </html>
