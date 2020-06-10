@@ -30,9 +30,9 @@
     padding-top: 1em;
     padding-bottom: 1em;
     max-height: 350px;
-    text-align: center;
-  }
-
+    border: 3px solid red;
+}
+  
   .textBox {
     text-align: center;
     margin-right: auto;
@@ -48,6 +48,7 @@
     margin-left: auto;
     max-width: 1170px;
     margin-top: 4px;
+    border: 3px solid blue;
 }
 
 .innerTextBox{
@@ -55,15 +56,20 @@
     padding-left: 25px;
 }
 
-
-
+.emailForm {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 370px;
+    border: 3px solid green;
+}
 
 @media screen and (min-width: 1000px) {
     .column {
         float: left;
         width: 50%;
       }
-
 
   /* Clear floats after the columns */
   .row:after {
@@ -72,12 +78,19 @@
     clear: both;
   }
 
+  .emailForm {
+    display:block;
+    position:relative;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    margin-left: 1em;
+    }
+}
 
-  .centerSection {
+.centerSection {
     text-align: center; 
   }
 
-}
   /* Create two unequal columns */
 
   .first-column {
@@ -105,10 +118,6 @@
   .subtitleText{
       max-width: 800px;
       font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  }
- 
-  #emailForm {
-      margin-top: 15px;
   }
 
   .inputField {
@@ -150,3 +159,4 @@ section#carousel > figure.visible > figcaption {
     position:relative;
     padding-left: 200px;
 }
+
