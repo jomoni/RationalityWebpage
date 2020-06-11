@@ -6,6 +6,11 @@ function getFigures() {
     return figures;
 }
 
+function getLinks() {
+    var links = document.getElementById("carousel").querySelectorAll("a");
+    return links;
+}
+
 function moveForward() {
     var figures = getFigures();
     for (var i = 0; i < figures.length; i++) {
@@ -25,6 +30,8 @@ function moveForward() {
 function startPlayback(){
     var figures = getFigures();
     figures[0].className = 'visible';
+    var links = getLinks();
+    links[0].className = 'visible';
     setTimeout(moveForward, slideInterval);
 }
 
