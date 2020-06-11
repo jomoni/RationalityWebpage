@@ -3,6 +3,7 @@
 // 6/11/2020
 
 // carousel functionality, every 3.5 seconds, script sets a different image/link/header to visible
+// based on work from module 3, but added links to the carousel
 
 //time interval for image rotation (in milliseconds)
 var slideInterval = 3500;
@@ -10,7 +11,7 @@ var slideInterval = 3500;
 //which picture is being pointed at (not a literal pointer)
 var pointer = 0;
 
-//function pulls all figures from carousl
+//function pulls all figures from carousel
 function getFigures() {
     var figures = document.getElementById("carousel").querySelectorAll("figure");
     return figures;
