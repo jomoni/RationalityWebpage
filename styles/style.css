@@ -1,3 +1,13 @@
+/* ---------------------------------------------------------------------------
+          Rationality Engineering Design Website
+          Morgan Nicholson, jmnichol3@gmail.com
+          6/11/2020
+--------------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------------
+            Navigation Bar Styling
+--------------------------------------------------------------------------- */
+
 /* Style the navbar */
 #navbar {
     overflow: hidden;
@@ -20,6 +30,8 @@
     padding: 16px;
   }
   
+  /*taken from: https://www.w3schools.com/howto/howto_js_navbar_sticky.asp */
+
   /* The sticky class is added to the navbar with JS when it reaches its scroll position */
   .sticky {
     position: fixed;
@@ -35,7 +47,10 @@
   #currentPage {
       background-color:orange;
   }
-  /* XXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+/* ---------------------------------------------------------------------------
+           Header and Footer Styling for each page
+--------------------------------------------------------------------------- */
 
 .headerClass {
     background-color: #1E2330;
@@ -54,6 +69,40 @@
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
+
+ /* Create two unequal columns */
+
+ .first-column {
+    width: 31%;
+    padding: 5 -10px 5 5;
+    float: left;
+    text-align: right;
+    padding-top: 10px;
+  }
+
+  .second-column {
+    width: 66%;
+    padding: 5 -10px 5 5;
+    float: right;
+    padding-top: 80px;
+  }
+
+  .titleText {
+      font-weight: bold;
+      font-size: 2em;
+      font-family: "Comic Sans MS", Times, serif;
+      color: orange;
+  }
+
+  .subtitleText{
+      max-width: 800px;
+      font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+
+
+/* ---------------------------------------------------------------------------
+            Navigation Bar Styling
+--------------------------------------------------------------------------- */
 .logoClass {
     display: block;
     margin-left: auto;
@@ -106,6 +155,10 @@
     max-width: 370px;
 }
 
+/* ---------------------------------------------------------------------------
+            Large Screen Styling
+--------------------------------------------------------------------------- */
+
 @media screen and (min-width: 1000px) {
     .column {
         float: left;
@@ -131,36 +184,11 @@
 .centerSection {
     text-align: center; 
   }
-
-  /* Create two unequal columns */
-
-  .first-column {
-    width: 31%;
-    padding: 5 -10px 5 5;
-    float: left;
-    text-align: right;
-    padding-top: 10px;
-  }
-
-  .second-column {
-    width: 66%;
-    padding: 5 -10px 5 5;
-    float: right;
-    padding-top: 80px;
-  }
-
-  .titleText {
-      font-weight: bold;
-      font-size: 2em;
-      font-family: "Comic Sans MS", Times, serif;
-      color: orange;
-  }
-
-  .subtitleText{
-      max-width: 800px;
-      font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  }
-
+ 
+/* ---------------------------------------------------------------------------
+            Form Styling
+--------------------------------------------------------------------------- */
+  
   .inputField {
       margin-bottom: 5px;
   }
@@ -168,6 +196,10 @@
   form > label {
       font-weight: bold;
   }
+
+/* ---------------------------------------------------------------------------
+           Carousel Styling
+--------------------------------------------------------------------------- */
 
   section#carousel > figure > img {
     display: none;
@@ -200,12 +232,28 @@ section#carousel > figure.visible > a {
     font-weight: bold;
 }
 
+/* ---------------------------------------------------------------------------
+          Link Styling
+--------------------------------------------------------------------------- */
+
 .linkColumn {
     clear: both;
     margin-right: auto;
     margin-left: auto;
     max-width: 400px;
 }
+
+#listOfLinks {
+    max-width: 300px;
+    list-style-position: inside;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+/* ---------------------------------------------------------------------------
+           Video Styling
+--------------------------------------------------------------------------- */
 
 .video-wrapper {
     height: 0;
@@ -231,10 +279,3 @@ section#carousel > figure.visible > a {
     margin-right: 60px;
 }
 
-#listOfLinks {
-    max-width: 300px;
-    list-style-position: inside;
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-  }
