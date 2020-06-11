@@ -127,6 +127,8 @@
     margin-left: auto;
     /*width: 600px;*/
     padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
   }
 
   .textBox-w {
