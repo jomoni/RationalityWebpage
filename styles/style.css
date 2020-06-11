@@ -12,6 +12,7 @@
     text-align: center;
     padding: 14px;
     text-decoration: none;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   }
   
   /* Page content */
@@ -201,7 +202,6 @@ section#carousel > figure.visible > a {
 
 .linkColumn {
     clear: both;
-    background-color: orange;
     margin-right: auto;
     margin-left: auto;
     max-width: 400px;
